@@ -42,7 +42,7 @@ const Specialist = async () => {
         >
           {specialties.map((specialty: any) => (
             <Box
-              key={specialty._id}
+              key={specialty.id}
               sx={{
                 flex: 1,
                 width: "150px",
